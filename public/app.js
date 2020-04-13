@@ -13,6 +13,7 @@ if (theme) {
 
 // Button Event Handlers
 darkButton.onclick = () => {
+  // bodyについてるクラスを入れ替える
   body.classList.replace("light", "dark");
   localStorage.setItem("theme", "dark");
 };
